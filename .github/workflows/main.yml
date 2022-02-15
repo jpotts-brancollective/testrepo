@@ -13,8 +13,10 @@ jobs:
         uses: treosh/lighthouse-ci-action@v8
         with:
           urls: |
-            https://sandboxshoesandsox.mybigcommerce.com/
-            https://sandboxshoesandsox.mybigcommerce.com/girls/
+            https://elwd.com.au/
+            https://elwd.com.au/mens/
+            https://elwd.com.au/mens/corp-tee-black/?nosto_source=cmp&nosto=620b22c4c226d303d73963f5
+            https://elwd.com.au/search.php?search_query=men
           uploadArtifacts: true # save results as an action artifacts
           temporaryPublicStorage: true # upload lighthouse report to the temporary storage
 
